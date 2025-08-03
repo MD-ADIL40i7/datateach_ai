@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTeach.Ai - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <head>
+        <!-- Existing head content -->
+        <style>
+            .whatsapp-button {
+                position: fixed;
+                bottom: 80px;
+                left: 20px; /* Changed from right to left */
+                width: 50px;
+                height: 50px;
+                background-color: #25D366;
+                color: white;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 24px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+                transition: all 0.3s ease;
+            }
+    
+            .whatsapp-button:hover {
+                background-color: #128C7E;
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="next.html">
+                     
+                    <img src="img/DT Logo.png" alt="Datateach.ai" class="logo-alt">
+                </a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="next.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Cource.html">Cources</a></li>
+                <!-- <li><a href="Teams.html"  >Our Team</a></li> -->
+                <!-- <li><a href="Gallery.html">Gallery</a></li> -->
+                <!-- <li><a href="Clients.html">Clients</a></li> -->
+                <li><a href="contact.html" class="active">Contact</a></li>
+                
+            </ul>
+            <div class="burger" id="burger" aria-label="Toggle menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content animate-fade-in" style="--delay:0">
+                <h1>Get In Touch</h1>
+                <p>We're here to help you transform your business with cutting-edge technology solutions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact-form">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-element">
+                    <h2 class="section-title">Contact Information</h2>
+                    <p>Have questions about our services? Ready to start your digital transformation journey? Reach out to us through any of the following channels:</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Our Location</h3>
+                                <p style="color: black;">DataTeach.Ai Offices</p>
+                                <p style="color: black;">3rd floor,Hno-221 MIG,Road no-02,KPHB Phase-I,Manayavar Building,Kukatpally Hyderabad |Telangana,500085.   </p>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Call Us</h3>
+        
+                                <p><a href="tel:+918919272320" style="color: black;">+91 9885946789</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p ><a href="mailto:info@datateach.ai" style="color: black;">info@datateach.ai</a></p>
+                                <p><a href="mailto:support@info@datateach.ai" style="color: black;">support@info@datateach.ai</a></p>
+                            </div>
+                        </div>
+                        
+                         
+                    </div>
+                </div>
+                
+                <div class="contact-form-container animate-element">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <p>Fill out the form below, and we'll get back to you as soon as possible.</p>
+                    
+                    <form action="https://formspree.io/f/xdkzdleb" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+1 123-456-7890">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="How can we help you?">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Tell us about your project or inquiry." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Send Message</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header animate-element">
+                <h2>Find Us</h2>
+                <p>Visit our office or reach out to us online</p>
+            </div>
+            <div class="map-container animate-element">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.292186537687!2d78.39861327462927!3d17.493560199738877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb919a38f37e41%3A0x6940a1e7337efd81!2sDataTeach.ai!5e0!3m2!1sen!2sin!4v1746614346331!5m2!1sen!2sin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <div class="social-title animate-element">
+                <h2 class="section-title">Connect With Us</h2>
+                <p>Follow us on social media to stay updated with our latest news and innovations</p>
+            </div>
+            
+            <div class="social-links animate-element">
+                <a href="https://www.facebook.com/profile.php?id=61571549600733&mibextid=ZbWKwL" class="social-link" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/nexthubtech?t=3YILsJZGf4I_2vgEzo2OHA&s=08" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/nexthubtechnologies?igsh=MWJoMzdydGVsdnkxaQ==" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/next-hub-technologies/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header animate-element">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to some of the most common questions about our services</p>
+            </div>
+            
+            <div class="accordion-container animate-element">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>How quickly can you respond to my inquiry?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We strive to respond to all inquiries within 24 hours during business days. For urgent matters, we recommend calling our support line directly for immediate assistance.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Do you offer services internationally?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes! NextHub Technologies provides services to clients worldwide. Our digital solutions can be implemented remotely, and we have experience working with companies across different time zones and regions.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Can you provide a quote for my project?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolutely. Fill out our contact form with details about your project requirements, and our team will analyze your needs and provide a detailed quote. For complex projects, we may schedule a consultation to better understand your needs.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>What industries do you specialize in?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>NextHub Technologies works with clients across various industries including healthcare, finance, education, retail, manufacturing, and more. Our solutions are customized to meet the specific needs and challenges of each industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-widget footer-logo">
+                    <img src="img/DT Logo.png" alt="DataTeach Logo">
+                    <p class="footer-text">Working to bring significant changes in online-based learning by doing extensive research for course curriculum preparation, student engagements, and looking forward to the flexible education.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61571549600733&amp;mibextid=ZbWKwL" class="social-icon" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/nexthubtech?t=3YILsJZGf4I_2vgEzo2OHA&amp;s=08" class="social-icon" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nexthubtechnologies?igsh=MWJoMzdydGVsdnkxaQ==" class="social-icon" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/next-hub-technologies/" class="social-icon" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-widget">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="next.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="About.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="Cource.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                        <li><a href="Contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-widget">
+                    <h3 class="footer-heading">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Data science full stack</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Data Analytics</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Artificial Intelligence</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Python &amp; Java (Full stack Developer)</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Campus Recruitment Training(CRT) </a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Research and Academic Project </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-widget">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://maps.app.goo.gl/rKkn81o4YRDz7xcA9" target="_blank"><i class="fas fa-map-marker-alt"></i> 3rd floor, Hno-221 MIG, Road no-2, KPHB Phase-I,Manyavar Building, Kukatpally,
+                            Hyderabad, Telangana, 500085.</a></li>
+                        <li><a href="mailto:nexthubTech@gmail.com"><i class="fas fa-envelope"></i> info@datateach.ai</a></li>
+                        <li><a href="tel:+916301550330"><i class="fas fa-phone-alt"></i> +91 9885946789</a></li>
+                    </ul>
+                    <h3 class="footer-heading newsletter-heading">Newsletter</h3>
+                    <p class="footer-text">Stay updated with our latest news and offers.</p>
+                    <form class="newsletter-form" id="newsletterFormFooter">
+                        <input type="email" class="newsletter-input" placeholder="Your Email" required="">
+                        <button type="submit" class="newsletter-button" aria-label="Subscribe to newsletter"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="form-message" id="newsletterMessageFooter"></div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 DataTeach.Ai . All Rights Reserved. Designed by <a href="next.html">DataTeach.Ai</a></p>
+            </div>
+        </div>
+    </footer>
+    <a href="https://wa.me/+918919272320" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle functionality
+            const burger = document.getElementById('burger');
+            const navLinks = document.getElementById('navLinks');
+            
+            burger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                burger.classList.toggle('active');
+            });
+            
+            // Animate elements when they come into view
+            const animateElements = document.querySelectorAll('.animate-element');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            animateElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Form submission handling
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('formMessage');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Form validation
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+                    
+                    if (!name || !email || !message) {
+                        formMessage.textContent = "Please fill in all required fields";
+                        formMessage.className = "form-message error";
+                        formMessage.style.display = "block";
+                        return;
+                    }
+                    
+                    // Simulate form submission
+                    formMessage.textContent = "Your message has been sent successfully!";
+                    formMessage.className = "form-message success";
+                    formMessage.style.display = "block";
+                    
+                    // Reset form
+                    contactForm.reset();
+                    
+                    // Hide message after 5 seconds
+                    setTimeout(function() {
+                        formMessage.style.display = "none";
+                    }, 5000);
+                });
+            }
+            
+            // FAQ Accordion functionality
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const accordion = this.parentElement;
+                    const accordionContent = this.nextElementSibling;
+                    const accordionIcon = this.querySelector('.accordion-icon i');
+                    
+                    // Toggle active class
+                    accordion.classList.toggle('active');
+                    
+                    // Toggle icon
+                    if (accordion.classList.contains('active')) {
+                        accordionIcon.classList.remove('fa-plus');
+                        accordionIcon.classList.add('fa-minus');
+                    } else {
+                        accordionIcon.classList.remove('fa-minus');
+                        accordionIcon.classList.add('fa-plus');
+                    }
+                    
+                    // Toggle content
+                    if (accordion.classList.contains('active')) {
+                        accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+                    } else {
+                        accordionContent.style.maxHeight = 0;
+                    }
+                });
+            });
+            
+            // Back to top button
+            const backToTopButton = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Sticky navigation
+            const navbar = document.getElementById('navbar');
+            const navHeight = navbar.offsetHeight;
+            let lastScrollTop = 0;
+            
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > navHeight) {
+                    navbar.classList.add('sticky');
+                    
+                    // Hide on scroll down, show on scroll up
+                    if (scrollTop > lastScrollTop && scrollTop > navHeight * 2) {
+                        navbar.classList.add('hide');
+                    } else {
+                        navbar.classList.remove('hide');
+                    }
+                } else {
+                    navbar.classList.remove('sticky');
+                    navbar.classList.remove('hide');
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+        });
+    </script>
+</body>
+</html>
